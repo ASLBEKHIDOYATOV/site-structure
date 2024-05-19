@@ -1,0 +1,138 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+.container {
+    width: 1300px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.header_wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+   
+}
+.site-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 1600px;
+    height: 75px;
+    margin: 0 auto;
+    background-color: antiquewhite;
+}
+.site-logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: brown;
+}
+.site-list {
+    width: 450px;
+    height: 60px;
+    background-color: rgb(4, 126, 37);
+}
+.site-button {
+    width: 100px;
+    height: 60px;
+    background-color: rgb(34, 106, 106);
+}
+.site-main {
+    margin: 0 auto;
+    width: 1600px;
+}
+.hero-section {
+    width: 1600px;
+    padding: 150px 0;
+    margin: 0 auto;
+    background-color: orange;
+}
+.main_wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.main_h2{
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        -webkit-clip-path: inset(100%);
+                clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+      
+}
+.left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 400px;
+    height: 300px;
+    background-color: red;
+}
+.right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 500px;
+    height: 200px;
+    background-color: green;
+}
+.site-footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 1600px;
+    margin: 0 auto;
+    padding: 100px 0;
+    background-color: blueviolet;
+}
